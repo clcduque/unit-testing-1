@@ -10,7 +10,7 @@ public class MyApplication {
 
     public boolean processMessage(Message message){
         //some magic like validation, Logging, etc
-       return service.sendMessage (message.msg, message.rec);
+       return service.sendMessage (message.getMsg(), message.getRec());
 
     }
 
