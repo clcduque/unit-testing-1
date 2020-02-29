@@ -5,12 +5,23 @@ public class Message {
     private String msg;
     private String rec;
 
-    public String getMsg(){
-        return msg;
-    }
+    public Message() {}
 
-    public String getRec(){
-        return rec;
-    }
+        public Message (String msg, String rec) {
+
+             this.msg = msg;
+             this.rec = rec;
+
+        }
+
+            public String getMsg () {
+                return msg;
+            }
+
+            public String getRec () {
+                return rec;
+            }
+
+
 
 }
