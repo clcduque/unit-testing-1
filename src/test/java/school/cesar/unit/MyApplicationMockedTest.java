@@ -35,6 +35,8 @@ public class MyApplicationMockedTest {
 
         when(service.sendMessage(anyString(), anyString())).thenReturn(true);
         Assertions.assertTrue(application.processMessage(dummy));
+        TN 2134640961 - cód rejeição 55
+        TN 3532213766 - autorizada
 
     }
 
